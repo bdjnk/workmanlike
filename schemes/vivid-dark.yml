@@ -1,0 +1,119 @@
+colors:
+  # The workmanlike color scheme for LS_COLORS via vivid
+  background_color: 'ffffff'
+  black: '1e1c1a'
+  blue: 'aad6ff'
+  magenta: 'ffbbe1'
+  red: 'ffbdac'
+  yellow: 'ffcb85'
+  green: 'b0e386'
+  cyan: '9be1da'
+
+  light_green: '6d9e46'
+
+  gray: '7e7c7a'
+  light_gray: '9e9c9a'
+
+core:
+  normal_text: {}
+  regular_file: {}
+  reset_to_normal: {}
+
+  directory:
+    foreground: blue
+
+  symlink:
+    foreground: magenta
+
+  multi_hard_link: {}
+
+  fifo:
+    foreground: black
+    background: blue
+
+  socket:
+    foreground: black
+    background: magenta
+
+  door:
+    foreground: black
+    background: magenta
+
+  block_device:
+    foreground: black
+    background: red
+
+  character_device:
+    foreground: black
+    background: cyan
+
+  broken_symlink:
+    foreground: black
+    background: red
+
+  missing_symlink_target:
+    foreground: black
+    background: red
+
+  setuid: {}
+
+  setgid: {}
+
+  file_with_capability: {}
+
+  sticky_other_writable: {}
+
+  other_writable: {}
+
+  sticky: {}
+
+  executable_file:
+    foreground: red
+    font-style: bold
+
+text:
+  special:
+    foreground: black
+    background: yellow
+
+  todo:
+    font-style: bold
+
+  licenses:
+    foreground: gray
+
+  configuration:
+    foreground: yellow
+
+  other:
+    foreground: yellow
+
+markup:
+  foreground: yellow
+
+programming:
+  source:
+    foreground: green
+
+  tooling:
+    foreground: light_green
+
+    continuous-integration:
+      foreground: green
+
+media:
+  foreground: magenta
+
+office:
+  foreground: red
+
+archives:
+  foreground: cyan
+  font-style: underline
+
+executable:
+  foreground: red
+  font-style: bold
+
+unimportant:
+  foreground: light_gray

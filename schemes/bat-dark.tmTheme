@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>name</key>
+  <string>workmanlike</string>
+  <key>settings</key>
+  <array>
+    <dict>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#1E1C1A</string>
+        <key>caret</key>
+        <string>#EEECEA</string>
+        <key>foreground</key>
+        <string>#EEECEA</string>
+        <key>invisibles</key>
+        <string>#4E4C4A</string>
+        <key>lineHighlight</key>
+        <string>#1E1C1A</string>
+        <key>selection</key>
+        <string>#1E1C1A</string>
+      </dict>
+    </dict>
+    <!-- ###### comment ###################### -->
+    <dict>
+      <key>name</key>
+      <string>comment</string>
+      <key>scope</key>
+      <string>comment</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#9e9c9a</string> <!-- bGray    -->
+      </dict>
+    </dict>
+    <!-- ###### string ####################### -->
+    <dict>
+      <key>name</key>
+      <string>string</string>
+      <key>scope</key>
+      <string>string</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#</string> <!-- dYellow  -->
+      </dict>
+    </dict>
+    <!-- ###### constant.numeric ############# -->
+    <dict>
+      <key>name</key>
+      <string>constant.numeric</string>
+      <key>scope</key>
+      <string>constant.numeric</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#</string> <!-- dBlue    -->
+      </dict>
+    </dict>
+    <!-- ###### constant.builtin ############# -->
+    <dict>
+      <key>name</key>
+      <string>constant.builtin</string>
+      <key>scope</key>
+      <string>constant.language</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#</string> <!-- bBlue    -->
+        <key>fontStyle</key>
+        <string>bold</string>    <!-- bold     -->
+      </dict>
+    </dict>
+    <!-- ###### variable ##################### -->
+    <dict>
+      <key>name</key>
+      <string>variable</string>
+      <key>scope</key>
+      <string>variable</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#</string> <!-- dTeal    -->
+      </dict>
+    </dict>
+    <!-- ###### variable.builtin ############# -->
+    <dict>
+      <key>name</key>
+      <string>variable.builtin</string>
+      <key>scope</key>
+      <string>variable.language</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#</string> <!-- bTeal    -->
+        <key>fontStyle</key>
+        <string>bold</string>    <!-- bold     -->
+      </dict>
+    </dict>
+    <!-- ###### keyword ###################### -->
+    <dict>
+      <key>name</key>
+      <string>keyword</string>
+      <key>scope</key>
+      <string>keyword</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#</string> <!-- bPink    -->
+        <key>fontStyle</key>
+        <string>bold</string>    <!-- bold     -->
+      </dict>
+    </dict>
+    <!-- ###### keyword.storage ############## -->
+    <dict>
+      <key>name</key>
+      <string>keyword.storage</string>
+      <key>scope</key>
+      <string>storage</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#</string> <!-- bPurple  -->
+        <key>fontStyle</key>
+        <string>bold</string>    <!-- bold     -->
+      </dict>
+    </dict>
+    <!-- ###### keyword.control ## -->
+    <dict>
+      <key>name</key>
+      <string>keyword.control.conditional</string>
+      <key>scope</key>
+      <string>keyword.control.conditional</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#</string> <!-- bYellow  -->
+        <key>fontStyle</key>
+        <string>bold</string>    <!-- bold     -->
+      </dict>
+    </dict>
+    <!-- ###### operator ##################### -->
+    <dict>
+      <key>name</key>
+      <string>operator</string>
+      <key>scope</key>
+      <string>keyword.operator</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#eeecea</string> <!-- dWhite   -->
+      </dict>
+    </dict>
+    <!-- ###### function ##################### -->
+    <dict>
+      <key>name</key>
+      <string>function</string>
+      <key>scope</key>
+      <string>
+        variable.function,
+        entity.name.function,
+        support.function
+      </string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#</string> <!-- dPink   -->
+      </dict>
+    </dict>
+    <!-- ###### type ######################### -->
+    <dict>
+      <key>name</key>
+      <string>type</string>
+      <key>scope</key>
+      <string>
+        storage.type,
+        support.type
+      </string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#</string> <!-- dPurple  -->
+        <key>fontStyle</key>
+        <string>italic</string>  <!-- italic   -->
+      </dict>
+    </dict>
+  </array>
+  <key>uuid</key>
+  <string>D8D5E82E-3D5B-46B5-B38E-8C841C21347D</string>
+  <key>colorSpaceName</key>
+  <string>sRGB</string>
+  <key>semanticClass</key>
+  <string>theme.light.monokai</string>
+</dict>
+</plist>

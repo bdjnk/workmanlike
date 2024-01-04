@@ -1,0 +1,140 @@
+
+# --------------------------- Syntax ------------------------------------------------------- #
+
+"comment"                     = "bGray"
+
+"constant"                    = { fg = "dBlack"                          } # should be unused
+"constant.builtin"            = { fg = "bTeal"  , modifiers = ["bold"]   } # true false nil null
+"constant.numeric"            = { fg = "dTeal"                         } # ints floats
+
+"constant.character.escape"   = { fg = "dGreen" , modifiers = ["bold"]   }
+
+"function"                    = "dPink"
+
+"keyword"                     = { fg = "bPink"  , modifiers = ["bold"]   }
+"keyword.control.conditional" = { fg = "bYellow", modifiers = ["bold"]   }
+"keyword.control.repeat"      = { fg = "bGreen" , modifiers = ["bold"]   }
+"keyword.control.exception"   = { fg = "bRed"   , modifiers = ["bold"]   }
+"keyword.storage"             = { fg = "bPurple", modifiers = ["bold"]   }
+
+"operator"                    = "dBlack"  # || += >
+
+"punctuation"                 = "dBlack"  # should be unused
+"punctuation.delimiter"       = "dGray"   # , . ; :
+"punctuation.bracket"         = "bBlue"   # {} () <>
+"punctuation.special"         = "bYellow" # string interpolation brackets
+
+"string"                      = { fg = "dYellow"                         }
+"string.special"              = { fg = "dGreen" , modifiers = ["bold"]   }
+"string.regexp"               = { fg = "dGreen" , modifiers = ["bold"]   }
+
+"tag"                         = { fg = "dRed"   , modifiers = []         } # html
+"attribute"                   = { fg = "dBlack" , modifiers = ["italic"] }
+
+"type"                        = { fg = "dPurple", modifiers = ["bold"]   }
+"type.builtin"                = { fg = "dPurple", modifiers = ["italic"] }
+
+"variable"                    = { fg = "dBlue"  , modifiers = []   }
+"variable.builtin"            = { fg = "bBlue"  , modifiers = ["bold"]   }
+"variable.other.member"       = { fg = "dBlue"                           }
+
+# --------------------------- Markdown ----------------------------------------------------- #
+
+"markup.heading"              = { fg = "dPink"                                } 
+"markup.bold"                 = {                 modifiers = ["bold"]        }
+"markup.italic"               = {                 modifiers = ["italic"]      }
+"markup.strikethrough"        = {                 modifiers = ["crossed_out"] }
+"markup.link.url"             = {                 modifiers = ["underlined"]  }
+"markup.link.text"            = { fg = "dBlue"                                }
+"markup.raw"                  = { fg = "dPurple"                              }
+
+# --------------------------- Diff --------------------------------------------------------- #
+
+"diff.plus"                   = "bGreen"
+"diff.minus"                  = "bRed"
+"diff.delta"                  = "bBlue"
+
+# --------------------------- User Interface ----------------------------------------------- # 
+
+"ui.background"               = {                 bg = "pWhite"                              }
+
+"ui.linenr"                   = { fg = "dWhite"                                              }
+"ui.linenr.selected"          = { fg = "bBlack"                                              }
+
+"ui.cursor"                   = {                                 modifiers = ["reversed"]   }
+"ui.cursor.match"             = {                 bg = "bWhite"                              }
+
+"ui.selection"                = {                 bg = "aBlue"                               }
+
+"ui.cursorline.primary"       = {                 bg = "pWhite"                              }
+"ui.cursorcolumn.primary"     = {                 bg = "pWhite"                              }
+"ui.cursorline.secondary"     = {                 bg = "bWhite"                              }
+"ui.cursorcolumn.secondary"   = {                 bg = "bWhite"                              }
+
+"ui.statusline"               = { fg = "bBlue"  , bg = "bWhite" , modifiers = ["bold"]       }
+"ui.statusline.inactive"      = { fg = "dBlue"  , bg = "bWhite"                              }
+
+"ui.popup"                    = {                 bg = "bWhite"                              }
+"ui.window"                   = { fg = "bBlack"                                              }
+"ui.help"                     = { fg = "bBlack" , bg = "bWhite"                              }
+
+"ui.text"                     = { fg = "dBlack"                                              }
+"ui.text.focus"               = { fg = "pBlack"                                              }
+"ui.text.inactive"            = { fg = "bBlack"                                              }
+
+"ui.menu"                     = { fg = "bBlack" , bg = "bWhite"                              }
+"ui.menu.selected"            = {                                 modifiers = ["bold"]       }
+"ui.menu.scroll"              = { fg = "dWhite" , bg = "pWhite"                              }
+
+"ui.virtual"                  = { fg = "dWhite"                                              }
+
+"ui.highlight"                = {                 bg = "aWhite"                              }
+"ui.debug"                    = { fg = "dYellow"                                             }
+"ui.debug.breakpoint"         = { fg = "bRed"                                                }
+
+# --------------------------- Diagnostic --------------------------------------------------- #
+
+"diagnostic.error"            = { underline = { color = "dRed"   , style = "curl" } }
+"diagnostic.warning"          = { underline = { color = "dYellow", style = "curl" } }
+"diagnostic.info"             = { underline = { color = "bBlue"  , style = "curl" } }
+"diagnostic.hint"             = { underline = { color = "dWhite" , style = "curl" } }
+
+"error"   = "dRed"
+"warning" = "dYellow"
+"info"    = "bBlue"
+"hint"    = "dWhite"
+
+# --------------------------- Palette ------------------------------------------------------ #
+
+[palette]
+
+pBlack  = "#000000"
+pWhite  = "#ffffff"
+
+aWhite  = "#f9f7f5"
+aBlue   = "#aad6ff"
+
+# Dark Colors
+dBlack  = "#1e1c1a"
+dGray   = "#7e7c7a"
+dWhite  = "#ceccca"
+dBlue   = "#0e558e"
+dPurple = "#664385"
+dPink   = "#83395d"
+dRed    = "#873b30"
+dYellow = "#714a06"
+dGreen  = "#2c5e03"
+dTeal   = "#0d5c58"
+
+# Bright Colors
+bBlack  = "#4e4c4a"
+bGray   = "#9e9c9a"
+bWhite  = "#eeecea"
+bBlue   = "#6393d2"
+bPurple = "#a881c9"
+bPink   = "#c8789c"
+bRed    = "#cf7a6b"
+bYellow = "#b88846"
+bGreen  = "#6d9e46"
+bTeal   = "#579c96"
+
