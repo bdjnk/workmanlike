@@ -6,47 +6,51 @@ A light first white background color theme for bright digital workmanship.
 
 ![workmanlike colors](workmanlike.png)
 
-### blue
+### Hex Values
 
 `#0e558e`
 `#6393d2`
 `#aad6ff`
-
-### purple
+**Blues**
 
 `#664385`
 `#a881c9`
 `#eec4ff`
-
-### pink
+**Purples**
 
 `#83395d`
 `#c8789c`
 `#ffbbe1`
-
-### red
+**Pinks**
 
 `#873b30`
 `#cf7a6b`
 `#ffbdac`
-
-### yellow
+**Reds**
 
 `#714a06`
 `#b88846`
 `#ffcb85`
-
-### green
+**Yellows**
 
 `#2c5e03`
 `#6d9e46`
 `#b0e386`
-
-### teal
+**Greens**
 
 `#0d5c58`
 `#579c96`
 `#9be1da`
+**Teals**
+
+## Supported Applications
+
+These are available in [schemes](schemes/).
+
+- [alacritty](https://github.com/alacritty/alacritty) - terminal emulator
+- [helix](https://github.com/helix-editor/helix) - code editor
+- [bat](https://github.com/sharkdp/bat) - advanced `cat`
+- [vivid](https://github.com/sharkdp/vivid) - for generating `LS_COLORS`
 
 ## Development Process
 
