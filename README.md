@@ -1,6 +1,8 @@
 # workmanlike
 
-A light first white background color theme for bright digital workmanship.
+A light first color theme for bright digital workmanship.
+
+Contributions welcome.
 
 ## Colors
 
@@ -52,8 +54,12 @@ These are available in [schemes](schemes/).
 - [bat](https://github.com/sharkdp/bat) - advanced `cat`
 - [vivid](https://github.com/sharkdp/vivid) - for generating `LS_COLORS`
 
+If you have the time and will to add a new scheme for some new application, please do it and open a PR.
+
 ## Development Process
 
 The base colors were selected by eyeballing the colors and tweaking via RGB and HSV until they felt right. This was an extended personal process during which I used the standard light version as my code syntax highlighting theme ensuring I get daily exposure.
 
-Afterward CIELAB was used normalize the lightness of the color variants to 35, 60, and 85. This required the baseline 60 lightness variant to have an RGB minimum of 70 and an RGB maximum of 210 to avoid shifts in color for dark and light variants respectively. A small amount of color tweaking was necessary therefore.
+Afterward CIELAB was used to normalize the lightness of the color variants to 35, 60, and 85. This required the baseline 60 lightness variant to have an RGB minimum of 70 and an RGB maximum of 210 to avoid shifts in color for dark and light variants respectively. A small amount of color tweaking was necessary therefore.
+
+An indispensible tool during this process was [colorizer](https://colorizer.org/).
