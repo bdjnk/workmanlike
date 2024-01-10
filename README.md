@@ -46,7 +46,16 @@ Contributions welcome.
 **Teals**
 
 `#1e1c1a`
-`#1e1c1a`
+`#3e3c3a`
+**Blacks**
+
+`#6e6c6a`
+`#9e9c9a`
+**Grays**
+
+`#ceccca`
+`#eeecea`
+**Whites**
 
 ## Supported Applications
 
