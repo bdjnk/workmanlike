@@ -45,6 +45,9 @@ Contributions welcome.
 `#9be1da`
 **Teals**
 
+`#1e1c1a`
+`#1e1c1a`
+
 ## Supported Applications
 
 These are available in [schemes](schemes/).

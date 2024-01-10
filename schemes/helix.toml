@@ -116,7 +116,7 @@ aBlue   = "#aad6ff"
 
 # Dark Colors
 dBlack  = "#1e1c1a"
-dGray   = "#7e7c7a"
+dGray   = "#6e6c6a"
 dWhite  = "#ceccca"
 dBlue   = "#0e558e"
 dPurple = "#664385"
@@ -127,7 +127,7 @@ dGreen  = "#2c5e03"
 dTeal   = "#0d5c58"
 
 # Bright Colors
-bBlack  = "#4e4c4a"
+bBlack  = "#3e3c3a"
 bGray   = "#9e9c9a"
 bWhite  = "#eeecea"
 bBlue   = "#6393d2"

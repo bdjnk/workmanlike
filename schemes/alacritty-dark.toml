@@ -1,5 +1,5 @@
 [colors.bright]
-black = "0x4e4c4a"
+black = "0x3e3c3a"
 blue = "0x6393d2"
 magenta = "0xc8789c"
 red = "0xcf7a6b"
@@ -19,5 +19,5 @@ cyan = "0x9be1da"
 white = "0xceccca"
 
 [colors.primary]
-background = "0xffffff"
-foreground = "0x1e1c1a"
+background = "0x1e1c1a"
+foreground = "0xffffff"

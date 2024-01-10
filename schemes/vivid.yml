@@ -1,7 +1,7 @@
 colors:
   # The workmanlike color scheme for LS_COLORS via vivid
   background_color: 'ffffff'
-  black: '1e1c1a'
+  black: 'eeecea'
   blue: '0e558e'
   magenta: '83395d'
   red: '873b30'

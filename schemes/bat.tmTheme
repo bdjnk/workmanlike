@@ -10,17 +10,17 @@
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#FFFFFF</string>
+        <string>#ffffff</string>
         <key>caret</key>
-        <string>#1E1C1A</string>
+        <string>#1e1c1a</string>
         <key>foreground</key>
-        <string>#1E1C1A</string>
+        <string>#1e1c1a</string>
         <key>invisibles</key>
-        <string>#4E4C4A</string>
+        <string>#3e3c3a</string>
         <key>lineHighlight</key>
-        <string>#FFFFFF</string>
+        <string>##f9f7f5</string>
         <key>selection</key>
-        <string>#FFFFFF</string>
+        <string>#aad6ff</string>
       </dict>
     </dict>
     <!-- ###### comment ###################### -->
@@ -44,7 +44,21 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#</string> <!-- dYellow  -->
+        <string>#714a06</string> <!-- dYellow  -->
+      </dict>
+    </dict>
+    <!-- ###### string.regexp ################ -->
+    <dict>
+      <key>name</key>
+      <string>string.regexp</string>
+      <key>scope</key>
+      <string>string.regexp</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#2c5e03</string> <!-- dGreen   -->
+        <key>fontStyle</key>
+        <string>bold</string>    <!-- bold     -->
       </dict>
     </dict>
     <!-- ###### constant.numeric ############# -->
@@ -56,7 +70,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#</string> <!-- dBlue    -->
+        <string>#0e558e</string> <!-- dBlue    -->
       </dict>
     </dict>
     <!-- ###### constant.builtin ############# -->
@@ -68,7 +82,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#</string> <!-- bBlue    -->
+        <string>#6393d2</string> <!-- bBlue    -->
         <key>fontStyle</key>
         <string>bold</string>    <!-- bold     -->
       </dict>
@@ -82,7 +96,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#</string> <!-- dTeal    -->
+        <string>#0d5c58</string> <!-- dTeal    -->
       </dict>
     </dict>
     <!-- ###### variable.builtin ############# -->
@@ -94,7 +108,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#</string> <!-- bTeal    -->
+        <string>#579c96</string> <!-- bTeal    -->
         <key>fontStyle</key>
         <string>bold</string>    <!-- bold     -->
       </dict>
@@ -108,7 +122,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#</string> <!-- bPink    -->
+        <string>#c8789c</string> <!-- bPink    -->
         <key>fontStyle</key>
         <string>bold</string>    <!-- bold     -->
       </dict>
@@ -122,12 +136,12 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#</string> <!-- bPurple  -->
+        <string>#a881c9</string> <!-- bPurple  -->
         <key>fontStyle</key>
         <string>bold</string>    <!-- bold     -->
       </dict>
     </dict>
-    <!-- ###### keyword.control ## -->
+    <!-- ###### keyword.control.conditional ## -->
     <dict>
       <key>name</key>
       <string>keyword.control.conditional</string>
@@ -136,7 +150,35 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#</string> <!-- bYellow  -->
+        <string>#b88846</string> <!-- bYellow  -->
+        <key>fontStyle</key>
+        <string>bold</string>    <!-- bold     -->
+      </dict>
+    </dict>
+    <!-- ###### keyword.control.loop ######### -->
+    <dict>
+      <key>name</key>
+      <string>keyword.control.loop</string>
+      <key>scope</key>
+      <string>keyword.control.loop</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#6d9e46</string> <!-- bGreen   -->
+        <key>fontStyle</key>
+        <string>bold</string>    <!-- bold     -->
+      </dict>
+    </dict>
+    <!-- ###### keyword.control.exception #### -->
+    <dict>
+      <key>name</key>
+      <string>keyword.control.exception</string>
+      <key>scope</key>
+      <string>keyword.control.exception</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#cf7a6b</string> <!-- bRed     -->
         <key>fontStyle</key>
         <string>bold</string>    <!-- bold     -->
       </dict>
@@ -166,7 +208,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#</string> <!-- dPink   -->
+        <string>#83395d</string> <!-- dPink   -->
       </dict>
     </dict>
     <!-- ###### type ######################### -->
@@ -181,7 +223,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#</string> <!-- dPurple  -->
+        <string>#664385</string> <!-- dPurple  -->
         <key>fontStyle</key>
         <string>italic</string>  <!-- italic   -->
       </dict>
