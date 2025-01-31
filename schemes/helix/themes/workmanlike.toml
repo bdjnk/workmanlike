@@ -5,7 +5,7 @@
 
 "constant"                    = { fg = "dBlack"                          } # should be unused
 "constant.builtin"            = { fg = "bTeal"  , modifiers = ["bold"]   } # true false nil null
-"constant.numeric"            = { fg = "dTeal"                         } # ints floats
+"constant.numeric"            = { fg = "dTeal"                           } # ints floats
 
 "constant.character.escape"   = { fg = "dGreen" , modifiers = ["bold"]   }
 

@@ -62,6 +62,7 @@ Contributions welcome.
 These are available in [schemes](schemes/).
 
 - [alacritty](https://github.com/alacritty/alacritty) - terminal emulator
+- [foot](https://codeberg.org/dnkl/foot) - terminal emulator
 - [helix](https://github.com/helix-editor/helix) - code editor
 - [bat](https://github.com/sharkdp/bat) - advanced `cat`
 - [vivid](https://github.com/sharkdp/vivid) - for generating `LS_COLORS`

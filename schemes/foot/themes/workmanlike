@@ -1,0 +1,27 @@
+# -*- conf -*-
+# theme: workmanlike
+# author: Michael Plotke
+
+[colors]
+foreground = 1e1c1a
+background = ffffff
+
+# Normal colors
+regular0 = 1e1c1a
+regular1 = 873b30
+regular2 = 2c5e03
+regular3 = 714a06
+regular4 = 0e558e
+regular5 = 83395d
+regular6 = 0d5c58
+regular7 = ceccca
+
+# Bright colors
+bright0 = 3e3c3a
+bright1 = cf7a6b
+bright2 = 6d9e46
+bright3 = b88846
+bright4 = 6393d2
+bright5 = c8789c
+bright6 = 579c96
+bright7 = eeecea
