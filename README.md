@@ -4,6 +4,12 @@ A light first color theme for bright digital workmanship.
 
 Contributions welcome.
 
+## Installation
+
+Clone the repository. From the base directory run the following command with schemes you need selected via file globbing. For example, if you wanted to install the theme files for bat, alacritty, and vivid, you would run:
+
+`cp -r schemes/{bat,vivid,alacritty} ~/.config/`
+
 ## Colors
 
 ![workmanlike colors](workmanlike.png)
